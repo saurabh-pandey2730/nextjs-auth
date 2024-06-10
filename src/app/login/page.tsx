@@ -8,7 +8,8 @@ import { useRouter } from "next/navigation"
 export default function SignUpPage(){
     const [user,setuser]=React.useState({
         email:"",
-        password:"",
+        password:"", 
+        
         username:""
     })
     const onLogin = async()=>{}
